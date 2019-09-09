@@ -19,14 +19,11 @@ clear
 ./rr.sh page4
 read -s next
 clear
-xdotool key Ctrl+0
-clear
 for i in $(seq 4) 
 do
 	echo " "
 done
 echo "   Entering standby mode...."
-sleep 3
+sleep 1.5
 clear
 cmatrix -bsC green
-#./cmatrix
