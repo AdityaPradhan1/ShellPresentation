@@ -10,7 +10,7 @@ echo '    MIST Shell Initialised'
 echo -n '    Loading '
 for i in $(seq 3); do
 	echo -n .
-	sleep .15
+	sleep .1
 done
 sleep 1
 clear

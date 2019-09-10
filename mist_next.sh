@@ -12,8 +12,11 @@ read -s next
 clear
 ./rr.sh page3
 cat anonymous | nms -asf green
-sleep 2 
+sleep 0.1 
 tput setaf 2
+read -s next
+clear
+./rr.sh page5
 read -s next
 clear
 ./rr.sh page4

@@ -2,7 +2,6 @@
 clear
 tput setaf 2	
 ./rr.sh guyfwakes_bigres_ascii
-sleep 1
 clear
 ./init_check.sh
 ./rr.sh text_art
